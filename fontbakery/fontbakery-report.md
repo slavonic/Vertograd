@@ -1,21 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.13.2
-
-
-
-
-
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
-
-
-<details><summary>[1] Vertograd-Regular.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Check base characters have non-zero advance width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#base-has-width">base_has_width</a></summary>
-    <div>
+fontbakery version: 0.13.3
 
 
 
@@ -23,21 +8,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>The following glyphs had zero advance width:
-- uniE005 (U+E005)</p>
- [code: zero-width-bases]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-
-
-
-## All other checks
+## Check results
 
 
 
@@ -111,7 +82,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ѩ, Ѥ, Ѫ, ꙁ, ҁ, Ꙁ, ꙃ, ѫ, Ҁ, ѩ, ѭ, Ꙃ, Ѭ, ѥ</td>
+<td align="left">The following base characters are missing from the font: ѫ, ѩ, ꙁ, Ꙃ, Ѥ, ҁ, Ҁ, ѥ, Ꙁ, Ѫ, ꙃ, ѭ, Ѭ, Ѩ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 </tbody>
@@ -1631,9 +1602,9 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+E002 : not included in any glyphset definition</li>
@@ -2344,7 +2315,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 12 | 109 | 7 | 101 | 0 | 
+| 0 | 0 | 6 | 12 | 109 | 7 | 102 | 0 | 
 | 0% | 0% | 3% | 5% | 46% | 3% | 43% | 0% | 
 
 

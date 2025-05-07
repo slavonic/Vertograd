@@ -273,11 +273,11 @@ you're checking.</p>
     <tr>
         <td>0</td>
         <td>0</td>
-        <td>7</td>
+        <td>6</td>
         <td>12</td>
         <td>109</td>
         <td>7</td>
-        <td>101</td>
+        <td>102</td>
     </tr>
     <tr>
         <td>0%</td>
@@ -311,13 +311,15 @@ immediately.
 <p>(but other kinds of bug reports and/or feature requests
     are also always welcome, of course!)</p>
 
-<p>FontBakery version: 0.13.2</p>
+<p>FontBakery version: 0.13.3</p>
         
             
                 <h2>OpenType Specification Checks</h2>
 <span class='section__emoji'>
     ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
+
+    
 
     
 
@@ -467,6 +469,8 @@ acutecomb (U+0301), uni0308 (U+0308), uni030B (U+030B), uni030F (U+030F), uni048
 
     
 
+    
+
             
         
             
@@ -474,61 +478,13 @@ acutecomb (U+0301), uni0308 (U+0308), uni030B (U+030B), uni030F (U+030F), uni048
             
                 <h2>Universal Profile Checks</h2>
 <span class='section__emoji'>
-    🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️
+    🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️
 </span>
 
     
 
     
 
-    
-
-    
-    <h3>
-    
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/12/28</div>
-    
-    Check base characters have non-zero advance width.
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:base_has_width&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-        <details>
-            <summary>
-                🔥
-                Vertograd-Regular.ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs had zero advance width:
-- uniE005 (U+E005)</p>
-
-                            
-                             [code: zero-width-bases]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
     
@@ -1318,10 +1274,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
     
 
-    
-
-    
-
             
         
             
@@ -1498,9 +1450,9 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+E002 : not included in any glyphset definition</li>
@@ -1588,7 +1540,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ѩ, Ѥ, Ѫ, ꙁ, ҁ, Ꙁ, ꙃ, ѫ, Ҁ, ѩ, ѭ, Ꙃ, Ѭ, ѥ</td>
+<td align="left">The following base characters are missing from the font: ѫ, ѩ, ꙁ, Ꙃ, Ѥ, ҁ, Ҁ, ѥ, Ꙁ, Ѫ, ꙃ, ѭ, Ѭ, Ѩ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 </tbody>
